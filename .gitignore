@@ -1,0 +1,20 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Private/runtime data
+events.csv
+*.log
+.env
+.env.*
+
+# Camera captures / recordings
+captures/
+recordings/
+*.mp4
+*.avi
+
+# Downloaded model weights
+*.pt
